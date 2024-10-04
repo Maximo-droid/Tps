@@ -46,4 +46,5 @@ const peliculas = [
     }
 ];
 
-export default peliculas;
+module.export  = peliculas;
+

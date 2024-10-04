@@ -1,4 +1,6 @@
-import peliculas from "./peliculas.js";
+const peliculas = require("./peliculas.js");
+
+
 
 function mostrarPelis() {
     for (let i = 0; i < peliculas.length; i++) {
@@ -17,3 +19,23 @@ function mostrarPelis() {
 }
 
 mostrarPelis();
+
+console.log("==================================="); // Línea de separación
+
+const fs = require('fs');
+
+ fs.readFile('./mensaje.txt', 'utf8', (error, data) => {
+ if (error) {
+    console.error('Error  al leer el archivo:', error);
+    return;
+
+    
+ }
+console.log('Contenido del archivo:  ', data);
+
+
+ })
+
+
+
+
