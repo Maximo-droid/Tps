@@ -20,9 +20,11 @@ function importBicicletas() {
 }
 
 const bicicletasArray = importBicicletas();
-console.log(bicicletasArray[0]); 
-console.log(bicicletasArray[1]);
-
-module.exports =  importBicicletas;
 
 
+module.exports = { importBicicletas };
+
+/*las dos llaves {} son necesarias para crear un objeto
+ que contiene la función importBicicletas, lo que 
+permite acceder a la función como una propiedad del 
+objeto importado. */

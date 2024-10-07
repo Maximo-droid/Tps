@@ -9,7 +9,7 @@
         "peso": 16,
         "tipo": "Triatlon",
         "precio": 120000,
-        "vendida": "si"
+        "vendida": "no"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "peso": 17,
         "tipo": "Montañera",
         "precio": 100000,
-        "vendida": "No"
+        "vendida": "no"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "peso": 15,
         "tipo": "Retro",
         "precio": 150000,
-        "vendida": "No"
+        "vendida": "si"
     },
     {
         "id": 4,
